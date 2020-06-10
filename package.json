@@ -1,0 +1,17 @@
+{
+  "name": "mddoc-scaffold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "toc": "doctoc md",
+    "pdf": "node build.js"
+  },
+  "keywords": [],
+  "author": "tapica24",
+  "license": "MIT",
+  "devDependencies": {
+    "doctoc": "^1.4.0",
+    "mdpdf": "^2.1.2"
+  }
+}
