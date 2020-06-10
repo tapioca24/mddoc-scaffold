@@ -2,7 +2,15 @@
 
 > Markdown でドキュメントを書いて pdf を生成する雛形です。
 
-## 目次の生成
+## Installation
+
+```sh
+npm install
+```
+
+## Usage
+
+### Generate TOC
 
 以下のコマンドでドキュメントに目次をつけることができます。
 
@@ -20,7 +28,7 @@ md に以下のコードを書いておくことで挿入箇所を指定でき�
 
 詳細は [thlorenz/doctoc](https://github.com/thlorenz/doctoc) を参照ください。
 
-## pdf の生成
+### Generate PDF
 
 以下のコマンドで `md` ディレクトリ内の md ファイルを pdf に変換し、`pdf` ディレクトリに生成します。
 
